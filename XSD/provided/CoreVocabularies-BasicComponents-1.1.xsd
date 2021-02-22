@@ -98,7 +98,7 @@
 -->
 <xsd:schema targetNamespace="http://www.w3.org/ns/corevocabulary/BasicComponents" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.91" xmlns="http://www.w3.org/ns/corevocabulary/BasicComponents" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<!-- ===== Imports ===== -->
-	<xsd:import namespace="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" />
+	<xsd:import namespace="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" schemaLocation="BDNDR-UnqualifiedDataTypes-1.1.xsd" />
 	<!-- ===== Element Declarations ===== -->
 	<xsd:element name="AddressAddressArea" type="AddressAddressAreaType"/>
 	<xsd:element name="AddressAdminUnitLocationOne" type="AddressAdminUnitLocationOneType"/>
