@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<p:ResponseTransferEvidence xmlns:cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:clmIANAMIMEMediaType="urn:un:unece:uncefact:codelist:specification:IANAMIMEMediaType:2003" xmlns:isoc="http://www.de4a.eu/2020/commons/country/iso3166-1" xmlns:p="http://www.de4a.eu/2020/data/requestor/pattern/intermediate" xmlns:p1="http://www.de4a.eu/2020/commons/type" xmlns:p2="http://www.de4a.eu/2020/commons/identity/type" xmlns:p3="http://eidas.europa.eu/attributes/naturalperson" xmlns:p4="http://eidas.europa.eu/attributes/legalperson" xmlns:p5="https://data.europe.eu/semanticassets/ns/cv/common/cbc_v2.0.0#" xmlns:p6="https://data.europe.eu/semanticassets/ns/cv/common/dataTypes-2.0.0#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.de4a.eu/2020/data/requestor/pattern/intermediate ../DR1-IM.xsd ">
+<p:ResponseTransferEvidence xmlns:cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:clmIANAMIMEMediaType="urn:un:unece:uncefact:codelist:specification:IANAMIMEMediaType:2003" xmlns:isoc="http://www.de4a.eu/2020/commons/country/iso3166-1" xmlns:p="http://www.de4a.eu/2020/data/requestor/pattern/intermediate" xmlns:p1="http://www.de4a.eu/2020/commons/type" xmlns:p2="http://www.de4a.eu/2020/commons/identity/type" xmlns:p3="http://eidas.europa.eu/attributes/naturalperson" xmlns:p4="http://eidas.europa.eu/attributes/legalperson" xmlns:p5="https://data.europe.eu/semanticassets/ns/cv/common/cbc_v2.0.0#" xmlns:p6="https://data.europe.eu/semanticassets/ns/cv/common/dataTypes-2.0.0#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dba="http://www.de4a.eu/2020/dba" xsi:schemaLocation="http://www.de4a.eu/2020/data/requestor/pattern/intermediate ../DR1-IM.xsd ">
   <p:RequestId>p:RequestId</p:RequestId>
   <p:SpecificationId>p:SpecificationId</p:SpecificationId>
   <p:TimeStamp>2001-12-31T12:00:00</p:TimeStamp>
@@ -28,6 +28,36 @@
   </p:DataRequestSubject>
   <p:CanonicalEvidenceId>p:CanonicalEvidenceId</p:CanonicalEvidenceId>
   <p:CanonicalEvidence>
-<p5:alias>asdf</p5:alias>
+    <dba:LegalEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CompanyName xml:lang="sv-se">
+        <LegalEntityName>Företag Ett AB</LegalEntityName>
+      </CompanyName>
+      <CompanyType>ab</CompanyType>
+      <CompanyStatus>economically active</CompanyStatus>
+      <CompanyActivity>
+        <ActivityDescription>Bolaget ska arbeta med it-konsultverksamhet, systemutveckling samt tekniska lösningar för idrottsevenemang. Bolaget ska även arbeta med uthyrning av entreprenadmaskiner samt äga och förvalta fast och lös egendom och därmed förenlig verksamhet.</ActivityDescription>
+      </CompanyActivity>
+      <RegistrationDate>2018-08-31</RegistrationDate>
+      <CompanyEUID>SEBOLREG.5591674170</CompanyEUID>
+      <CompanyContactData>
+        <Email>person.ett@foretagett.se</Email>
+      </CompanyContactData>
+      <RegisteredAddress xml:lang="sv-se">
+        <Thoroughfare>Storgatan</Thoroughfare>
+        <LocationDesignator>10</LocationDesignator>
+        <PostCode>85546</PostCode>
+        <PostName>Sundsvall</PostName>
+        <AdminUnitL1>Västernorrland</AdminUnitL1>
+        <AdminUnitL2>Sverige</AdminUnitL2>
+      </RegisteredAddress>
+      <PostalAddress xml:lang="sv-se">
+        <Thoroughfare>Storgatan</Thoroughfare>
+        <LocationDesignator>10</LocationDesignator>
+        <PostCode>85546</PostCode>
+        <PostName>Sundsvall</PostName>
+        <AdminUnitL1>Västernorrland</AdminUnitL1>
+        <AdminUnitL2>Sverige</AdminUnitL2>
+      </PostalAddress>
+    </dba:LegalEntity>
   </p:CanonicalEvidence>
 </p:ResponseTransferEvidence>

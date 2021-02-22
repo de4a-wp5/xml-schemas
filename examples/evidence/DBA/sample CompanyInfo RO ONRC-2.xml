@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LegalEntity xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:nsA="http://www.w3.org/1999/xhtml" xsi:noNamespaceSchemaLocation="schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<CompanyName>
+		<LegalEntityName>ELVILA SA</LegalEntityName>
+	</CompanyName>
+	<CompanyType>SA</CompanyType>
+	<CompanyStatus>economically active</CompanyStatus>
+	<CompanyActivity>
+		<NaceCode>3109</NaceCode>
+	</CompanyActivity>
+	<RegistrationDate>1998-12-08</RegistrationDate>
+	<CompanyEUID>ROONRC.J40/12487/1998</CompanyEUID>
+  <VatNumber>11273421</VatNumber>
+	<CompanyContactData>
+		<Email>office@elvila.ro</Email>
+		<Telephone>0214084799</Telephone>
+	</CompanyContactData>
+	<RegisteredAddress>
+ 		<Thoroughfare>Str. SIRIULUI</Thoroughfare>
+		<LocationDesignator>74-76</LocationDesignator>
+		<PostCode>014354</PostCode>
+		<PostName>Bucureşti Sectorul 1</PostName>
+		<AdminUnitL1>RO</AdminUnitL1>
+    <AdminUnitL2>Bucureşti</AdminUnitL2>
+	</RegisteredAddress>
+  <PostalAddress>
+ 		<Thoroughfare>Str. SIRIULUI</Thoroughfare>
+		<LocationDesignator>74-76</LocationDesignator>
+		<PostCode>014354</PostCode>
+		<PostName>Bucureşti Sectorul 1</PostName>
+		<AdminUnitL1>RO</AdminUnitL1>
+    <AdminUnitL2>Bucureşti</AdminUnitL2>
+	</PostalAddress>
+</LegalEntity>
