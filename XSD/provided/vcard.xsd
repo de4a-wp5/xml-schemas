@@ -17,8 +17,8 @@
       <dc:relation>ftp://ftp.isi.edu/in-notes/rfc2426.txt</dc:relation>
     </appinfo>
   </annotation>
-  <import namespace="http://www.w3.org/XML/1998/namespace" />
-  <import namespace="http://www.w3.org/1999/xlink" />
+  <import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlink.xsd"/>
   
   <element name="VCard" type="vCard:VCARDType"/>
   
